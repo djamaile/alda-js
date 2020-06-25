@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "scripts":{
+    "test": "jest"
+  }
+}
